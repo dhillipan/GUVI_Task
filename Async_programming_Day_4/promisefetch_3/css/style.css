@@ -1,0 +1,43 @@
+.container {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: lightgray;
+}
+
+.apiData {
+    text-align: center;
+    width: 100%;
+
+}
+
+.api-data {
+    background-color: bisque;
+    padding: 20px;
+}
+
+.apiItem {
+    background-color: bisque;
+    padding: 10px;
+    width: 18%;
+    margin: 5px;
+}
+
+.currencySelect{
+    text-align: center;
+    padding: 15px;
+}
+
+#currencySelect{
+    width: 20%;
+    height: 25px;
+    margin-top: 37px;
+}
+
+#exchangeRates p{
+    background-color: white;
+    text-align: center;
+    padding: 5px;
+}
