@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(238, 239, 240);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.containerGrid {
+    display: grid;
+    justify-content: space-evenly;
+    align-items: top;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.cardstyle {
+    margin: 20px;
+}
+
+.cardWrapper {
+    border-radius: 0% !important;
+    border: none;
+}
+
+.card-title {
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: rgb(27, 163, 45);
+}
+
+.pagination {
+    justify-content: center;
+}
+
+.paginationFlex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.page-link {
+    margin: 2px;
+    background-color: blue;
+    width: 25px;
+    color: white;
+    padding: 4px;
+}

@@ -1,0 +1,24 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 2%;
+    box-shadow: 3px 8px 8px 5px #888888;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+.btn-primary {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+}
+
+.form-check-input {
+    margin-right: 10px;
+}
